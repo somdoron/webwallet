@@ -12,6 +12,7 @@
     "decimal.js": "^10.0.1",
     "eslint": "^5.4.0",
     "flexbox-react": "^4.4.0",
+    "fsevents": "^1.2.4",
     "history": "^4.7.2",
     "lodash": "^4.17.10",
     "mobx": "^5.0.3",
@@ -46,10 +47,7 @@
   },
   "lint-staged": {
     "linters": {
-      "src/**/*.js": [
-        "eslint --config node_modules/eslint-config-react-app/index.js --fix",
-        "git add"
-      ]
+      "src/**/*.js": ["eslint --config node_modules/eslint-config-react-app/index.js --fix","git add"]
     }
   },
   "husky": {
